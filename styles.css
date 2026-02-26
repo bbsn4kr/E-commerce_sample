@@ -308,20 +308,35 @@ FOOTER
 
 */
 
+.footer__container {
+    text-align: center;
+    background-color: #000;
+}
+
 .footer__logo {
     width: 160px;
     margin: 0 auto;
+    filter: grayscale(1) invert(1)
 }
 
-.footer__info {
-    text-align: center;
+.footer__image {
+    color: white;
+}
+
+.footer__link,
+.footer__copyright {
+    color: #fff;
 }
 
 .footer__link {
-    padding: 0 36px;
+    padding: 36px;
     text-decoration: none;
 }
 
+.footer__link:hover {
+    cursor: pointer;
+}
+
 .footer__copyright {
-    padding-top: 20px;
+    padding: 40px 0;
 }
