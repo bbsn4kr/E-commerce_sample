@@ -273,3 +273,55 @@ FEATURES
     padding-right: 6px;
     color: #bfbfbf;
 }
+
+/* 
+
+RECENT 
+
+*/
+
+#recent {
+    padding-top: 8px;
+}
+
+.books__new {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 
+
+EXPLORE 
+
+*/
+
+#explore {
+    background-color: rgba(66, 152, 214, 0.1);
+    text-align: center;
+}
+
+/* 
+
+FOOTER
+
+*/
+
+.footer__logo {
+    width: 160px;
+    margin: 0 auto;
+}
+
+.footer__info {
+    text-align: center;
+}
+
+.footer__link {
+    padding: 0 36px;
+    text-decoration: none;
+}
+
+.footer__copyright {
+    padding-top: 20px;
+}
